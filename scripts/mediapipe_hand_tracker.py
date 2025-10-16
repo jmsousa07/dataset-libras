@@ -407,8 +407,8 @@ def main():
     print("----------------------------------------")
     
     # ALTERE ESTES CAMINHOS CONFORME SUA ESTRUTURA
-    pasta_videos = "C:/Users/borut/Documents/dataset-libras/dataset-libras/workspace/images/train/Cientista"
-    pasta_saida = "C:/Users/borut/Documents/dataset-libras/dataset-libras/results/Cientista"
+    pasta_videos = "C:/Users/LEMA/Documents/dataset-libras/workspace/images/train/Melão"
+    pasta_saida = "C:/Users/LEMA/Documents/dataset-libras/results/Melão"
     resultados = processador.processar_lote(pasta_videos, pasta_saida)
     
     print(f"pasta_videos = '{pasta_videos}'")
