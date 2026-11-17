@@ -1,0 +1,13 @@
+# ambiente virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# saída do pipeline
+processamento_libras.log
+*.log
