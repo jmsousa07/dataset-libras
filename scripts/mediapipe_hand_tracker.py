@@ -1,8 +1,8 @@
 """
-Sistema Profissional de Extração de Pontos de Mãos para Dataset de Libras
-Autor: Sistema desenvolvido para processamento de sinais de Libras
+Sistema de Extração de Pontos de Mãos para Dataset de Libras
+Autor: Joao Mateus
 Versão: 2.0
-Data: 2024
+Data: 2025
 """
 
 import cv2
