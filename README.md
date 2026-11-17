@@ -131,5 +131,13 @@ Consentimento Livre e Esclarecido, apresentado em Libras aos participantes surdo
 
 ## Licença
 
-- **Código** (`scripts/`): Apache License 2.0 — ver [LICENSE](LICENSE).
-- **Dados** (vídeos, landmarks e metadados): **CC BY 4.0**, conforme declarado no artigo.
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** — ver [LICENSE](LICENSE).
+
+Você pode usar, modificar e redistribuir este material — inclusive comercialmente — desde que dê a
+atribuição apropriada e indique se houve alterações. Atribuição sugerida:
+
+> SOUSA CASTRO, J. M. de; SIEBRA, A. H. de C.; OLIVEIRA, P. A. G. de; AMARAL, D. S. do.
+> **Desenvolvimento de um dataset de sinais em Libras para machine learning**. XV CONNEPI,
+> IFCE, 2026. Disponível em: https://github.com/jmsousa07/dataset-libras
+
+É a mesma licença declarada na seção de disponibilização pública do artigo.
