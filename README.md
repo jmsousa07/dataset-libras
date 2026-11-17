@@ -75,4 +75,4 @@ Projeto de equipe no IFCE — Campus Aracati (Ago–Dez 2025). A coleta foi dese
 
 ## Licença
 
-MIT — ver [LICENSE](LICENSE).
+Apache License 2.0 — ver [LICENSE](LICENSE).
