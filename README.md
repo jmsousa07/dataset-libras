@@ -87,7 +87,7 @@ SOUSA CASTRO, J. M. de; SIEBRA, A. H. de C.; OLIVEIRA, P. A. G. de; AMARAL, D. S
 NORTE NORDESTE DE PESQUISA E INOVAÇÃO, 15., 2026, Fortaleza. Trabalho aprovado para
 apresentação. Fortaleza: IFCE, 2026.
 
-- Arquivo: [`paper/Sousa-Castro-et-al-CONNEPI-2026.pdf`](paper/Sousa-Castro-et-al-CONNEPI-2026.pdf)
+- Arquivo: [`paper/Sousa-Castro-et-al.pdf`](paper/Sousa-Castro-et-al.pdf)
 - Evento: XV CONNEPI — Centro de Eventos do Ceará, Fortaleza, 9 a 11 de dezembro de 2026
 - Orientação: Profa. Dra. Denise Silva do Amaral
 
