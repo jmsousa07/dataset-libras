@@ -6,6 +6,9 @@ Machine Learning, com pipeline de extração de **landmarks de mãos** em Python
 > Trabalho de iniciação científica aprovado para apresentação no **XV CONNEPI** (Congresso Norte
 > Nordeste de Pesquisa e Inovação), IFCE, Fortaleza, 9–11 de dezembro de 2026.
 > Ver [Publicação](#publicação).
+>
+> ⚠️ **Atenção antes de clonar:** os vídeos estão versionados no repositório, que hoje ocupa
+> **7,28 GB**. A correção está planejada — ver [Problemas conhecidos](#problemas-conhecidos).
 
 ## O que tem aqui
 
@@ -100,8 +103,24 @@ Consentimento Livre e Esclarecido, apresentado em Libras aos participantes surdo
 
 ## Problemas conhecidos
 
+- **Peso do repositório (a corrigir)**: o repositório tem **7,28 GB** no GitHub, porque os vídeos
+  estão versionados junto com o código. Distribuição:
+
+  | Caminho | Tamanho | Conteúdo |
+  |---|---|---|
+  | `workspace/annotated-videos/` | 3,8 GB | 259 vídeos com o esqueleto sobreposto |
+  | `workspace/images/train/` | 3,6 GB | 260 vídeos originais |
+  | `workspace/landmarks/` | 166 MB | 259 CSV de coordenadas |
+  | `metadados/` | 4,2 MB | 259 JSON |
+  | `paper/` + `scripts/` | 750 KB | artigo e pipeline |
+
+  Isso inviabiliza o clone para quem quer só ler o código ou usar os landmarks, e coloca o
+  repositório acima do que o GitHub recomenda (1 GB) e perto do limite em que a plataforma
+  intervém (5 GB). **Correção planejada:** remover os vídeos do histórico do git e publicá-los como
+  assets de Release ou em plataforma de datasets, deixando no repositório apenas código, landmarks,
+  metadados e artigo (~170 MB). Exige reescrita de histórico (`git filter-repo`) e force-push.
 - **Cobertura parcial**: o artigo documenta 297 gravações validadas; este repositório traz 259
-  processadas.
+  processadas. O desbalanceamento é visível: `Melão` tem 22 gravações, os demais sinais têm 26–27.
 - **Divergência de vocabulário**: o artigo lista o sinal *peixe*; no repositório ele aparece como
   `Camarão`. Reconciliar antes de usar os rótulos.
 - **Grafia inconsistente** de sinalizador e sinal (`Neuriania` / `Neurinia`, `Camarão` / `Camarao`,
